@@ -1,0 +1,102 @@
+/*
+   File: /usr/cs/undergrad/2019/tlo1/public_html/index.html
+   91.61 Assignment2: Creating Your First Web Page
+   Tak Kwan Lo, UMass Lowell Computer Science, Tak_Lo@student.uml.edu
+   Copyright (c) 2018 by Tak K. Lo. All rights reserved. May be
+   freely copied or excerpted for educational purposes with credit to the
+   author.
+   updated by TKL on October 9, 2018
+
+   Background Image From:  https://www.flickr.com/photos/cata13es/6127697084
+   */
+
+/*
+Documentation:
+
+The code should be easy to read and understand since the website is made up of the basics.
+I believe everything is displayed as a block with each given different fixed position.
+
+*/
+
+body {
+  background-image: url("night.jpg");
+
+  color: rgba(200, 193, 193, 1);
+}
+
+#all {
+  position: absolute;
+  display: block;
+}
+
+h1, h2, h3 {
+  font-style: italic;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+h1 {
+  width: 300px;
+  margin: 10px;
+
+  position: fixed;
+  top: 100px;
+  left: 500px;
+
+  font-size: 50px;
+}
+
+#intro {
+  padding: 10px;
+
+  position: fixed;
+  top: 180px;
+  left: 450px;
+
+  width: 500px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+#links {
+  position: fixed;
+  left: 450px;
+  top: 320px;
+
+  padding: 10px;
+
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0px;
+  width: 500px;
+}
+
+ul {
+  padding: 0px;
+}
+
+ul li {
+  margin-right: 0px;
+  list-style-type: none;
+  display: inline;
+}
+
+ul li a {
+  padding: 10px;
+
+  color: #eee;
+}
+
+footer {
+  position: fixed;
+  left: 500px;
+  top: 600px;
+
+  font-style: italic;
+  font-family: inherit;
+}
