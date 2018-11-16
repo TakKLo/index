@@ -1,0 +1,37 @@
+<!--
+91.61 Assignment6: Dynamic Table
+Tak Kwan Lo, UMass Lowell Computer Science, Tak_Lo@student.uml.edu
+Copyright (c) 2018 by Tak K. Lo. All rights reserved. May be
+freely copied or excerpted for educational purposes with credit to the
+author.
+updated by TKL on November 15, 2018
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>as6</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/as6.css">
+  </head>
+  <body>
+    <div id="page">
+      <h1 id="header">Interactice Dynamic Table</h1>
+      <p>
+        This website takes two pairs of integers and will give a table with multiplication results of them. <br>
+        Only NUMBERS are permmited to be entered.
+      </p>
+      <form id="input" name = "input" ><!-- Input form -->
+      Starting Multiplier: <input type="number" name="LMultr"><br>
+      Ending Multiplier: <input type="number" name="UMultr"><br>
+      Starting Multiplicand: <input type="number" name="LMultc"><br>
+      Ending Multiplicand: <input type="number" name="UMultc"><br><br>
+      <input type="button" onclick="mySubmit()" value="Submit">
+    </form>
+    <p id = "errors"></p> <!-- if there is any error, mySubmit() will add html to this p -->
+    <table id = "myTable"></table><br> <!-- table -->
+    <p id = "output"></p><!-- this was for debugging -->
+    </div>
+       <script src="js/as6.js"></script>
+  </body>
+</html>
