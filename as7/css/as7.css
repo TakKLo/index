@@ -1,0 +1,30 @@
+/*
+91.61 Assignment6: Dynamic Table
+Tak Kwan Lo, UMass Lowell Computer Science, Tak_Lo@student.uml.edu
+Copyright (c) 2018 by Tak K. Lo. All rights reserved. May be
+freely copied or excerpted for educational purposes with credit to the
+author.
+updated by TKL on November 25, 2018
+*/
+
+#myForm {
+
+}
+
+.error {
+  background-color: #d7666b;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #000000;
+}
+
+.color {
+  background-color: rgba(141, 198, 107, 1);
+}
+
+#myTable {
+  border: 1px solid #000000;
+  border-spacing: 0px;
+}
