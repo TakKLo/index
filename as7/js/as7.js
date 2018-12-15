@@ -8,7 +8,42 @@ updated by TKL on November 25, 2018
 */
 
 $(() => {
-  $('#myForm').validate()
+  const integer_required = {
+    required: true,
+    digits: true
+  }
+
+  const message_integer_required = {
+    required:  "This field is required",
+    digits: "Please Enter a Positive integer"
+  }
+
+  const rules = {
+    "mr-start" : integer_required,
+    "mr-end" : integer_required,
+    "mc-start" : integer_required,
+    "mc-end" : integer_required
+  }
+
+  const messages = {
+    "mr-start" : message_integer_required,
+    "mr-end" : message_integer_required,
+    "mc-start" : message_integer_required,
+    "mc-end" : message_integer_required
+  }
+
+  $('#myForm').validate({
+    rules,
+    messages
+
+
+
+  })
+
+
+
+
+
   $('#myForm').on('submit', function(e){
     e.preventDefault()
     const inputs = $('#myForm input')
