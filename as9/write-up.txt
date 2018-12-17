@@ -1,0 +1,21 @@
+
+91.61 Assignment6: Scrabble Game
+Tak Kwan Lo, UMass Lowell Computer Science, Tak_Lo@student.uml.edu
+Copyright (c) 2018 by Tak K. Lo. All rights reserved. May be
+freely copied or excerpted for educational purposes with credit to the
+author.
+updated by TKL on December 16, 2018
+
+This website is mainly constructed with four parts; they are the rack/tiles,
+board, drag and drop, and score. On the start of the game, the rack and tiles are
+shown with the tiles partly covering the rack. This is implemented by modifying
+the style positions with css. The board is just a unordered list constructed
+with three different type of blocks which are class named normal, doubleLetter,
+and doubleWord; these are just background color with text instead of images. The
+drag and drop uses a jquery ui to name who(tiles) can be dragged,
+where(board_tile) can be dropped, and what will happen if dropped. When a tile
+is dropped onto a board_tile, the tile will be removed and a html with an
+identical tile will replace the corresponding board_tile html. The elements on the
+board will be used to make a corresponding string. This string will be used to
+calculate the score. When the newGame button is clicked, the score will be
+inserted into an array that consists of all the previous scores, if any.

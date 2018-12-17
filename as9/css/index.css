@@ -1,0 +1,89 @@
+/* 91.61 Assignment6: Scrabble Game
+Tak Kwan Lo, UMass Lowell Computer Science, Tak_Lo@student.uml.edu
+Copyright (c) 2018 by Tak K. Lo. All rights reserved. May be
+freely copied or excerpted for educational purposes with credit to the
+author.
+updated by TKL on December 16, 2018 */
+
+/* make everything center */
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* rack position */
+#rack {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  /* border: 1px solid blue; */
+  background-image: url("../img/rack.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 600px;
+  height:  90px;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+
+/* tile style */
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70px;
+  height: 80px;
+  margin-top: -30px;
+  font-weight: bold;
+  border-radius: 3px;
+  background-color: lightgray;
+  color: #555;
+}
+
+/* board is constructed by gray background */
+#board {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: auto;
+  background-color: #aaa;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+/* Light Gray Blocks on board */
+.board_tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  margin: .5px;
+  margin-top: -15px;
+  font-weight: bold;
+  border-radius: 3px;
+  background-color: lightgray;
+  color: #555;
+}
+
+/* color of double letter score block */
+.doubleLetter {
+  background-color: lightblue;
+  color: #555;
+}
+
+/* color of double word score block */
+.doubleWord {
+  background-color: pink;
+  color: #555;
+}

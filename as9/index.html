@@ -1,0 +1,48 @@
+<!--
+   91.61 Assignment6: Scrabble Game
+   Tak Kwan Lo, UMass Lowell Computer Science, Tak_Lo@student.uml.edu
+   Copyright (c) 2018 by Tak K. Lo. All rights reserved. May be
+   freely copied or excerpted for educational purposes with credit to the
+   author.
+   updated by TKL on December 16, 2018
+   -->
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>as7</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+      <!-- Boostrap -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      <!-- Local CSS and JS -->
+      <link rel="stylesheet" href="css/index.css">
+      <script type="text/javascript" src="js/index.js"></script>
+   </head>
+   <body>
+     <!-- rack -->
+     <section id="rack">
+       <img src="img/Scrabble_Tiles/Scrabble_Tile_A.jpg" class="tile">
+     </section>
+     <!-- board -->
+     <ul id="board">
+        <li class="board_tile normal"></li>
+        <li class="board_tile doubleLetter">DOUBLE LETTER SCORE</li>
+        <li class="board_tile doubleWord">DOUBLE WORD SCORE</li>
+     </ul>
+     <section>
+       <!-- current score -->
+       <p id="score">Score:</p>
+       <!-- print out previous scores -->
+       <p id="prevScores">Previous Scores:</p>
+       <!-- NewGame Button, when clicked the present score is saved -->
+       <button id="newGame" type="button" name="button" class="btn btn-primary">New Game</button>
+     </section>
+   </body>
+</html>
