@@ -3,7 +3,7 @@
    // Tak Kwan Lo, UMass Lowell Computer Science, Tak_Lo@student.uml.edu
    // Copyright (c) 2018 by Tak K. Lo. All rights reserved. May be
    // freely copied or excerpted for educational purposes with credit to the
-   // author.
+   // author. Source of images are provided on corresponding assignment.
    // updated by TKL on December 16, 2018
 
 
